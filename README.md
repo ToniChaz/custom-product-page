@@ -23,9 +23,10 @@ Upload custom-product-page folder in your /wp-content/plugins folder in your wor
 
 
 License
-GNU
-LICENSE
 
+GNU [LICENSE]
+
+[LICENSE]:https://github.com/ToniChaz/custom-product-page/blob/master/LICENSE
 [Wordpress]:https://www.wordpress.com/
 [PHP]:http://php.net/
 [jQuery]:http://jquery.com
