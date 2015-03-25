@@ -22,7 +22,7 @@ Custom product page plugin for wordpress.
 Upload custom-product-page folder in your /wp-content/plugins folder in your wordpress installation
 
 
-License
+### License
 
 GNU [LICENSE]
 
