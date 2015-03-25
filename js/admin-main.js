@@ -17,7 +17,7 @@ Product.addRow = function(tableID) {
     alert("Maximum data per product is 5");
 
   }
-}
+};
 
 // Delete rows from table
 Product.deleteRow = function(tableID) {
@@ -36,23 +36,14 @@ Product.deleteRow = function(tableID) {
       i--;
     }
   }
-}
+};
 
 // When document is ready
 $(document).ready(function() {
 
-  // Hide/show postdivrich when Product template is selected
-  $("#page_template").on("change", function() {
-    if ($(this).val() === "page-product.php") {
-      $("#postdivrich").hide();
-    } else {
-      $("#postdivrich").show();
-    }
-  });
-
   // Initialize tabs
-  $(function() {
-    $("#tabs").tabs();
+  $(function() {      
+    $("#tabs").tabs();    
   });
 
 });
