@@ -13,10 +13,10 @@ Custom product page plugin for wordpress.
 
 ### Tech
 
-* [Wordpress] - HTML enhanced for web apps!
-* [PHP] - awesome web-based text editor
-* [jQuery] - a super fast port of Markdown to JavaScript
-* [jQuery-UI] - great UI boilerplate for modern web apps
+* [Wordpress] - web software you can use to create a beautiful website, blog, or app.
+* [PHP] - a popular general-purpose scripting language that is especially suited to web development.
+* [jQuery] - the Write Less, Do More, JavaScript Library.
+* [jQuery-UI] - a curated set of user interface interactions, effects, widgets, and themes.
 
 ### Installation
 Upload custom-product-page folder in your /wp-content/plugins folder in your wordpress installation
@@ -24,7 +24,7 @@ Upload custom-product-page folder in your /wp-content/plugins folder in your wor
 
 ### License
 
-GNU [LICENSE]
+MIT [LICENSE]
 
 [LICENSE]:https://github.com/ToniChaz/custom-product-page/blob/master/LICENSE
 [Wordpress]:https://www.wordpress.com/

@@ -58,8 +58,8 @@ function product_meta_box_callback($post) {
     </p>
     <div id="tabs">
         <ul>
-            <li><a href="#tabs-1">Detalles del producto</a></li>
-            <li><a href="#tabs-2">Detalles del producto</a></li>
+            <li><a href="#tabs-1">Descripción del producto</a></li>
+            <li><a href="#tabs-2">Especificaciones del producto</a></li>
         </ul>
         <div id="tabs-1" class="wp-editor-container">
             <textarea class="wp-editor-area" autocomplete="off" cols="40" name="product_detail"><?php echo esc_attr($product_detail) ?></textarea>
@@ -72,7 +72,7 @@ function product_meta_box_callback($post) {
                 <button type="button" onClick="Product.deleteRow('dataTable')" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" role="button">
                     <span class="ui-button-text">Remove row</span>
                 </button>
-            <p>(All acions apply only to entries with check marked check boxes only.)</p>
+            <p>(To remove row first check it.)</p>
             </p>		    				
             <table id="dataTable" class="form" border="1">
                 <tbody>
